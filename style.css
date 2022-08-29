@@ -1,0 +1,157 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    /* Hiệu ứng cuộc trang scroll-behavior: smooth */
+    scroll-behavior: smooth;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.main-web{
+    width: 88%;
+    height: 100vh;
+    background-color: #fff;
+    display: inline-flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main-web .title{
+    font-size: 30px;
+    font-weight: 600;
+    color: brown;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+.main-web .banner{
+    background-image: url(./image/nuidoi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    height: 80%;
+    width: 96%;
+    display: inline-flex;
+}
+.main-web .banner .box-left{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-left .box{
+    height: 370px;
+    width: 370px;
+    background-color: rgb(29, 155, 117);
+    opacity: 0.6;
+    margin-left: 20px;
+}
+.main-web .banner .info-right{
+    height: 100%;
+    width: 65%;
+    padding-left: 20px;
+}
+.info-right .top-info{
+    height: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.active{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.title-spot{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.icon-ball{
+    color: rgb(66, 114, 17);
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+}
+.long-text{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.4;
+    font-style: italic;
+    opacity: 0.6;
+}
+.bottom-item{
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.list-item-1, .list-item-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list-item-1 .item{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.list-item-2 .item{
+    display: flex;
+    height: 100px;
+    width: 300px;
+}
+.icon-left{
+    width: 6.7rem;
+    height: 6rem;
+    border: 5px dotted rgb(66, 114, 17);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-spot{
+    font-weight: 600;
+    width: 200px;
+    padding-left: 25px;
+    text-align: justify;
+    color: rgb(66, 114, 17);
+}
+.category{
+
+    opacity: 0.6;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.spot{
+    font-size: 20px;
+}
+.host-img{
+    position: absolute;
+    top: 17rem;
+    left: 10rem;
+    height: 500px;
+    width: 300px;
+    background-image: url(./image/main-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+
+}
+
